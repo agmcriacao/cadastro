@@ -1,0 +1,89 @@
+
+.container{
+
+}
+
+.jumbotron {
+    padding: 0;
+    background-color: #e9ecef00;
+}
+
+.out{
+    padding: 0px 0px 26px 0px;
+    color: white;
+}
+
+.cabecalho{
+
+    
+    border-radius: 0px 0px 0px 0px;
+    color: white;
+    padding: 5px 21px 5px 0px;
+
+}
+
+.col{
+
+    padding: 10px;
+    background: rgb(176, 176, 176);
+    border-radius: 5px 5px 5px 5px;
+    margin-top: -20px;
+}
+.col-1{
+    max-width: 0.0%;
+}
+
+.button{
+    width: -webkit-fill-available;
+    border-radius: 20px;
+    background: #ffffff;
+    padding: 5px 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.button:hover{
+    width: -webkit-fill-available;
+    border-radius: 20px;
+    border-color: transparent;
+    background-color: rgb(27, 52, 96)!important;
+    color:white!important;
+    cursor: pointer;
+}
+
+a:hover{
+color:white!important;
+}
+
+
+button::after{
+    width: -webkit-fill-available;
+    border-radius: 20px;
+    border-color: transparent;
+    cursor: pointer;
+}
+
+.row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    justify-content: center;
+}
+.bodyy{
+    position: fixed!important;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+
+.box{
+    margin-top: 25vh;
+    background: rgb(1 22 87 / 67%);
+    padding: 40px;
+    margin-left: 10%;
+    margin-right: 10%;
+    border-radius: 10px;
+    z-index: 9999;
+}
+.blur{
+    filter: blur(10px);
+    opacity: 0.8;
+}
